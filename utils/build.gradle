@@ -5,11 +5,12 @@ plugins {
 }
 
 java {
-    sourceCompatibility = '17'
+    sourceCompatibility = '11'
 }
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 publishing {
